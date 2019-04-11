@@ -10,7 +10,7 @@ Prereqs are git, npm/yarn, editor with https://github.com/jaredly/reason-languag
 npm install
 npm start
 # in another tab
-yarn run server
+npm run server
 # open localhost:8000
 ```
 
