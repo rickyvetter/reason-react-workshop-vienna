@@ -4,9 +4,9 @@
   an issue! */
 {
   "name": "react-template",
-  // "reason": {
-  //   "react-jsx": 3
-  // },
+  "reason": {
+    "react-jsx": 3
+  },
   "sources": {
     "dir": "src",
     "subdirs": true
@@ -21,7 +21,7 @@
   "namespace": true,
   "bs-dependencies": ["reason-react", "bs-emotion"],
   "refmt": 3,
-  "ppx-flags": ["bs-emotion-ppx/ppx", "reactjs_jsx_ppx_v3.exe"],
+  "ppx-flags": ["bs-emotion-ppx/ppx" /*, "reactjs_jsx_ppx_v3.exe" */],
   "gentypeconfig": {
     "language": "typescript",
     "importPath": "relative",
